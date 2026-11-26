@@ -18,3 +18,7 @@ Use a subdomain such as `portfolio.jaeka.ca`: add a DNS CNAME record `portfolio`
 
 ## Language and theme
 The EN/FR and light/dark buttons remember the visitor's choice. French text is in `js/i18n.js`; please have a fluent reader review it.
+
+## v3 stack
+HTML5, CSS3, JavaScript, Bootstrap 5.3.3 (grid, buttons, tooltips) and jQuery 3.7.1, all vendored in `assets/vendor/` so GitHub Pages needs no build step.
+Brand: dark blue `#181d37`, red `#d31624`. Fonts: Inter (UI) and JetBrains Mono (code). All buttons share one size (`--btn-w`, `--btn-h` in `css/style.css`).
